@@ -28,6 +28,10 @@ public class Main {
         if (x == 5) {
             y = 3*x+x*z;
         }  if (x == -5) {
+            if (z == 7){
+                System.out.print("Не можна ділити на 0.");
+                System.exit(1);
+            }
             y = (2*x*z)/(7-z);
         }  if (x == 0) {
             y = x;
